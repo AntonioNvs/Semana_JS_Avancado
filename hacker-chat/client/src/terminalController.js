@@ -23,7 +23,6 @@ export default class TerminalController {
   #onInputReceived(eventEmitter) {
     return function () {
       const message = this.getValue()
-      console.log({ message })
       this.clearValue()
     }
   }
