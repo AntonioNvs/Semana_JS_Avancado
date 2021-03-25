@@ -1,9 +1,12 @@
 {
-  "name": "client",
+  "name": "@antonionvs/hacker-chat",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "hacker-chat": "index.js"
+  },
   "scripts": {
     "user01": "node index.js --username antonio --room sala01 --hostUri http://localhost:9898",
     "user02": "node index.js --username lara --room sala01 --hostUri http://localhost:9898",

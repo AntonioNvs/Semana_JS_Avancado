@@ -1,6 +1,8 @@
+#!/usr/bin/env node
 /*
   node index.js --username antonio --room sala01 --hostUri localhost
 */
+
 
 import Events from 'events'
 import CliConfig from './src/cliConfig.js';
